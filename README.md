@@ -14,6 +14,7 @@ IB Gateway running in Docker with [IB Controller](https://github.com/ib-controll
 ```bash
 > git clone
 > cd ib-gateway-docker
+> cp ibc.env.bak ibc.env
 > docker build .
 > docker-compose up
 ```
